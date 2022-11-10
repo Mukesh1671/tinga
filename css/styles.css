@@ -1,0 +1,193 @@
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.colored-section{
+  background-color: #F999B7;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/* heading */
+
+.big-title{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.big-title-alignment{
+  text-align: left;
+}
+
+#title{
+  z-index: -1;
+}
+
+#title .container-fluid{
+  padding: 3% 15%;
+}
+
+.navbar-brand{
+  font-size:2rem;
+  font-family: "Ubuntu";
+}
+
+#logo{
+  color: black;
+  padding-bottom: 3rem;
+}
+
+.nav-item{
+  padding: 8px;
+}
+
+.downloadButton{
+  margin: 10% 3% 10% 0;
+}
+
+.features-box{
+
+  padding: 5%;
+}
+
+.roate{
+  position: absolute;
+}
+
+
+/* Feature-Section */
+
+#features{
+  position: relative;
+}
+
+.features-title{
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.fa-solid{
+  color: #98A8F8;
+  margin-bottom: 4%;
+}
+
+.fa-solid:hover{
+  color: #DD5353;
+}
+
+
+/* Testimonial-section */
+
+#testimonials{
+  color:white;
+}
+
+.text{
+  font-size: 1.5rem;
+line-height: 1.5;
+font-weight: bold;
+padding-left: 14%;
+padding-right: 14%;
+}
+
+.Pebbles-img{
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+
+/* Press section */
+
+#press{
+  padding-bottom: 3%;
+}
+
+.pricing-card-title{
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.press-img{
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing-section */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+/* Cta-Section */
+
+#cta{
+  background-color:#F999B7;
+  padding: 5% 15%;
+}
+
+.cta-button{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+/* Footer-Section */
+
+.brand{
+  margin: 20px 10px;
+}
+
+.cta-h3{
+  color: white;
+  font-size: 3rem;
+}
+
+
+/* Media-Queries */
+
+@media (max-width:1013px)  {
+
+  #title{
+    text-align: center;
+  }
+
+  .rotate{
+    position: static;
+     margin-top:-75px;
+   margin-bottom:-75px;
+  }
+
+  .playstore,.apple{
+    margin-top: 20x;
+  }
+
+}
